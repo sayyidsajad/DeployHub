@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'repo-url'
+               git 'https://github.com/sayyidsajad/build-watch.git'
             }
         }
 
