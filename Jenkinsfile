@@ -5,7 +5,8 @@ pipeline {
 
         stage('Clone') {
             steps {
-               git 'https://github.com/sayyidsajad/build-watch.git'
+                git branch: 'main',
+                    url: 'https://github.com/sayyidsajad/build-watch.git'
             }
         }
 
